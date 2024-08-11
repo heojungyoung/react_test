@@ -1,5 +1,21 @@
+import React from 'react';
+import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
+import { Breadcrumb, Layout, Menu, theme } from 'antd';
+const { Header, Content, Footer, Sider} = Layout;
+
+const item1 = ['1','2','3'].map((key) => ({
+  key, 
+  label: `nav ${key}`,
+}));
+
 import logo from './logo.svg';
 import './App.css';
+
+
+
+
+
+
 
 function App() {
   return (
@@ -15,6 +31,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+         
+
          
          test Learn React
         </a>
